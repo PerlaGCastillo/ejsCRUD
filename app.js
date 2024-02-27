@@ -29,8 +29,8 @@ app.use(bodyParser.urlencoded({extended:false}));
 
 
 //12 routes
-app.use('/', require('./routes/index'));
-
+require('./routes/index')(app);
+ 
 // 3 iniciarla en un puerto y función para escucharla
 app.listen(app.get('port'), () => {
     console.log(`servidor en puerto ${app.get('port')}`, )

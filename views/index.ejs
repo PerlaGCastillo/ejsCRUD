@@ -9,9 +9,26 @@
 </head>
 <body class="container">
     <%- include ('partials/header.ejs');%>
-   
 
-    <%= title %>
+    <% if(entries.length) { %>
+        <% entries.forEach(function(entry){%>
+           <div class="card">
+            <div class="card-header">
+                <%= entry.title %>
+                <p class="float-end">  <%= entry.published %></p>    
+            </div>
+            
+            <div class="card-body">
+                <%= entry.content%>
+            </div>
+           </div>
+
+        <%})%>
+    <%} else {%>
+        <p>There aren't entries</p>
+    <%}%>
+
+
     
 </body>
 </html>

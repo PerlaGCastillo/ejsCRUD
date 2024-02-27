@@ -14,6 +14,22 @@
     <div class="col-xs-8 col-xs-offset-2">
         <h2 class="text-center">Write a new entry</h2>
 
+        <form method="post">
+            <div class="form-group">
+                <label for="title">Title: </label>
+                <input type="text" name="title" id="title" class="form-control" placeholder="entry a new title" required>
+            </div>
+
+            <div class="form-group">
+                <label for="body">Entry text</label>
+                <textarea class="form-control" name="body" id="body" rows="3" required></textarea>
+            </div>
+
+            <div class="form-group mt-2">
+                <input type="submit" value="Send" class="btn btn-primary">
+            </div>
+        </form>
+
     </div>
 
 </body>
