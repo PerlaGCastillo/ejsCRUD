@@ -1,0 +1,12 @@
+{
+  "name": "ejscrud",
+  "version": "1.0.0",
+  "description": "following the ejs n Express tutorial https://www.youtube.com/watch?v=7IBcDIb8XmQ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
