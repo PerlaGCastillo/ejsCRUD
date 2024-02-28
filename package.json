@@ -4,8 +4,7 @@
   "description": "following the ejs n Express tutorial https://www.youtube.com/watch?v=7IBcDIb8XmQ",
   "main": "index.js",
   "scripts": {
-    "start": "node app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
   "keywords": [],
   "author": "",
